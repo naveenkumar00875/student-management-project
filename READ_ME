@@ -1,0 +1,10 @@
+about the project:
+       student performance analytics
+
+
+description:
+      In that project , we initialize the pandas which is framework of the python and then generate the report 
+      with the students data and then it shows the overall student perfromance to identify it .
+
+   
+      And then additionally we initialize the ai tool (make.com) with using that to sent the each student data to the each student to thier parrent email id and in make.com , we use webhook and iterator is used to iterate the every student parent email id and sent the email. and it is the automation process.   

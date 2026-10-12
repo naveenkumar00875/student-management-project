@@ -1,0 +1,18 @@
+STUDENT PERFORMANCE REPORT
+===================================
+
+Total Students : 20
+Overall Average: 67.34
+
+TOPPERS
+ muthu
+
+WEAK STUDENTS
+No weak students found
+
+SUBJECT WISE AVERAGES
+Tamil   : 80.00
+English : 70.40
+Maths   : 61.60
+Science : 54.40
+Social  : 70.30
