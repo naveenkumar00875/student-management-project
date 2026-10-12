@@ -5,32 +5,33 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-project:
+  run-analysis:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Download project code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
+          pip install -r requirements.txt
 
-      - name: Run Student Performance Analysis
+      - name: Run Python script
         run: python main.py
 
-      - name: Save generated report
+      - name: Upload report
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: student-performance-report
           path: report.txt
           if-no-files-found: ignore
+
 
        
