@@ -1,7 +1,7 @@
 import pandas as pd
 import requests
 
-d = pd.read_csv("student.csv")
+d = pd.read_csv("Student.csv")
 
 
 d["Total"] = (
